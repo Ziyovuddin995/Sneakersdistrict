@@ -1,0 +1,68 @@
+.search_wrap{
+  
+    input{
+        width: 400px;
+        background: url("https://static-00.iconduck.com/assets.00/search-icon-2048x2048-cmujl7en.png") no-repeat center center/cover;
+        background-size: 25px;
+        background-position: 360px;
+    }
+}
+.search_items {
+    position: absolute;
+    top: 80px;
+
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.213);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    left: 30%;
+
+    max-width: 500px;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    
+    img {
+        aspect-ratio: 1;
+        object-fit: cover;
+        width: 100px;
+    }
+
+   
+}
+.item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.138);
+  }
+  
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

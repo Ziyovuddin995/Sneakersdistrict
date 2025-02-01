@@ -1,0 +1,432 @@
+.container {
+    width: 95%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.c_main{
+    padding-top: 30px;
+}
+.error {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 100%;
+        max-width: 600px;
+    }
+}
+
+
+.c_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 60px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .c_card {
+        width: 100%;
+        transition: .5s;
+        text-align: center;
+        
+
+        &:hover {
+            border: 1px solid gainsboro;
+        }
+
+        img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        p {
+            font-size: 14px;
+            color: gray;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 600;
+            min-height: 31px;
+        }
+
+        b {
+            font-size: 16px;
+            color: #111;
+            margin-top: 7px;
+            display: block;
+        }
+    }
+}
+.nothing {
+    text-align: center;
+    margin: 80px 0;
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
+.product {
+    display: flex;
+    padding: 60px 0;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.p_img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+   
+}
+
+.login{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_form{
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1); 
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+
+.empty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50dvh;
+    img{
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+.cart_wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .cart_item{
+        border: 2px solid gainsboro;
+        padding: 20px;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        span{
+            text-align: left;
+            img{
+                margin-top: 10px;
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+.cart_p2{
+    font-size: 14px;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    button{
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        border: 2px solid #111;
+        border-radius: 50%;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    p{
+        font-size: 24px;
+    }
+}
+
+.trash{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+.clear{
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px 0;
+    button{
+        padding: 10px 15px;
+        background-color: #111;
+        color: #fff;
+        font-size: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
+.cart{
+    padding: 60px 0;
+    
+}
+
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.cart_btn{
+    width: 200px;
+    height: 40px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.cart_btn:hover{
+    background-color: gainsboro;
+    color: black;
+}
+.cart_h1{
+    font-size: 22px;
+}
+.login_inp{
+    height: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+}
+.login_inp:hover{
+   color: black;
+}
+.login_btn{
+    height: 40px;
+    border-radius: 8px;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.login_btn:hover{
+    background-color: gainsboro;
+    color: black;
+}
+h2{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+h3{
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+.sale_btn{
+    height: 40px;
+    width: 200px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+.sale_btn:hover{
+    background-color: gainsboro;
+    color: black;
+}
+.hover_btn{
+    width: 300px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+.hover_btn:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+.p_right{
+    margin-top: 20px;
+}
+.cart_p{
+    font-size: 20px;
+}
+@media (max-width: 768px) {
+    .c_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .c_card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .c_card {
+        width: 100%;
+    }
+}  
+
+.pinkod{
+    width: 100%;
+    height: 100dvh;
+    display: grid;
+    place-items: center;
+    background-color: #111;
+    form{
+        width: 100%;
+        max-width: 400px;
+        border: 2px solid #fff;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 10px;
+        input{
+            height: 50px;
+            outline: none;
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        button{
+            height: 40px;
+            background-color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: 800;
+        }
+    }
+}
+
+.create{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.admin_name{
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+}
+input:hover{
+    border: 2px solid black;
+}
+input::placeholder{
+    color: gray;
+}
+.admin_btn1{
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    border: #111;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover{
+        background-color: gainsboro;
+        color: #111;
+        border: 2px solid black;
+    }
+}
+.admin_btn{
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border: #111;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    font-style: 18px;
+    &:hover{
+        background-color: gainsboro;
+        color: black;
+        border: 2px solid black;
+    }
+}
+
+.fixed_btn{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 99;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: #111;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    &:hover{
+        background-color: gainsboro;
+        color: black;
+        border: 2px solid black;
+    }
+}
+.single_form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.single_input{
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    background-color: gainsboro;
+    padding-left: 20px;
+}
+
+.Single_h1{
+    font-size: 24px;
+}
+.Single_admin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Single_img{
+    width:600px;
+}

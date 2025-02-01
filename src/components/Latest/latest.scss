@@ -1,0 +1,106 @@
+.container1{
+    width: 95%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+}
+main1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 20px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.popular_2{
+    width: 110px;
+    height: 25px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 10px;
+    margin-top: 340px;
+    margin-right: 220px;
+    border: none;
+}
+
+.card10 {
+   width: 100%;
+    height: 388px;
+    background-image: url('https://cdn.etrias.nl/media/cache/image_box_large_normal_lg/images/image_box_large/251534/headwear-fw24.jpg'); /* Replace with the desired image URL */
+    background-size: cover; /* Ensure the image covers the button */
+    background-position: center; /* Center the image */
+    border: none;
+    color: white; /* Text color */
+    font-size: 18px; /* Adjust text size */
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better readability */
+    transition: opacity 0.3s ease;
+    
+  }
+  .card11 {
+    width: 100%;
+    height: 388px;
+    background-image: url('https://cdn.etrias.nl/media/cache/image_box_large_normal_lg/images/image_box_large/251534/clothing-fw242.jpg'); /* Replace with the desired image URL */
+    background-size: cover; /* Ensure the image covers the button */
+    background-position: center; /* Center the image */
+    border: none;
+    color: white; /* Text color */
+    font-size: 18px; /* Adjust text size */
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better readability */
+    transition: opacity 0.3s ease;
+    
+  }
+  .card12 {
+    width: 100%;
+    height: 388px;
+    background-image: url('https://cdn.etrias.nl/media/cache/image_box_large_normal_lg/images/image_box_large/251534/bags.jpg'); /* Replace with the desired image URL */
+    background-size: cover; /* Ensure the image covers the button */
+    background-position: center; /* Center the image */
+    border: none;
+    color: white; /* Text color */
+    font-size: 18px; /* Adjust text size */
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better readability */
+    transition: opacity 0.3s ease;
+    
+  }
+  .card13{
+    width: 100%;
+    height: 388px;
+    background-image: url('https://cdn.etrias.nl/media/cache/image_box_large_normal_lg/images/image_box_large/251534/t-shirts-men.jpg'); /* Replace with the desired image URL */
+    background-size: cover; /* Ensure the image covers the button */
+    background-position: center; /* Center the image */
+    border: none;
+    color: white; /* Text color */
+    font-size: 18px; /* Adjust text size */
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better readability */
+    transition: opacity 0.3s ease;
+    
+  }
+  
+  /* Hover effect for the button */
+  .popular_1:hover {
+    opacity: 0.8;
+  }

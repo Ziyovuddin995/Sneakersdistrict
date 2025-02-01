@@ -1,0 +1,143 @@
+.container1{
+    width: 95%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 10px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.popular_1{
+    width: 100%;
+    height: 25px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 110px;
+    margin-right: 140px;
+    border: none;
+    
+}
+
+.card {
+    width: 250px;
+    height: 150px;
+    background-image: url('https://cdn.etrias.nl/media/cache/image_box_small_xlg/images/image_box/251708/kids-fw232-8.jpg'); /* Replace with the desired image URL */
+    background-size: cover; /* Ensure the image covers the button */
+    background-position: center; /* Center the image */
+    border: none;
+    color: white; /* Text color */
+    font-size: 18px; /* Adjust text size */
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better readability */
+    transition: opacity 0.3s ease;
+    
+  }
+  .card1 {
+    width: 250px;
+    height: 150px;
+    background-image: url('https://cdn.etrias.nl/media/cache/image_box_small_xlg/images/image_box/251708/heren-sneakers.jpg'); /* Replace with the desired image URL */
+    background-size: cover; /* Ensure the image covers the button */
+    background-position: center; /* Center the image */
+    border: none;
+    color: white; /* Text color */
+    font-size: 18px; /* Adjust text size */
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better readability */
+    transition: opacity 0.3s ease;
+    
+  }
+  .card2 {
+    width: 250px;
+    height: 150px;
+    background-image: url('https://cdn.etrias.nl/media/cache/image_box_small_xlg/images/image_box/251708/kids-fw232-2.jpg'); /* Replace with the desired image URL */
+    background-size: cover; /* Ensure the image covers the button */
+    background-position: center; /* Center the image */
+    border: none;
+    color: white; /* Text color */
+    font-size: 18px; /* Adjust text size */
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better readability */
+    transition: opacity 0.3s ease;
+    
+  }
+  .card3 {
+    width: 250px;
+    height: 150px;
+    background-image: url('https://cdn.etrias.nl/media/cache/image_box_small_xlg/images/image_box/251708/kleding-sd-klein-blok2.jpg'); /* Replace with the desired image URL */
+    background-size: cover; /* Ensure the image covers the button */
+    background-position: center; /* Center the image */
+    border: none;
+    color: white; /* Text color */
+    font-size: 18px; /* Adjust text size */
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better readability */
+    transition: opacity 0.3s ease;
+    
+  }
+  .card4 {
+    width: 250px;
+    height: 150px;
+    background-image: url('https://cdn.etrias.nl/media/cache/image_box_small_xlg/images/image_box/251708/accessories-sd-sokken.jpg'); /* Replace with the desired image URL */
+    background-size: cover; 
+    background-position: center; 
+    border: none;
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    transition: opacity 0.3s ease;
+    
+  }
+  .card5 {
+    width: 250px;
+    height: 150px;
+    background-image: url('https://cdn.etrias.nl/media/cache/image_box_small_xlg/images/image_box/251708/download-33.png'); /* Replace with the desired image URL */
+    background-size: cover; 
+    background-position: center; 
+    border: none;
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    transition: opacity 0.3s ease;
+    
+  }
+  
+  
+  .popular_1:hover {
+    opacity: 0.8;
+  }
